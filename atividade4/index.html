@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFut PodCast</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 200px;
+    }
+
+    .media-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .media-container video,
+    .media-container audio {
+      width: 45%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechFut PodCast</h1>
+  </header>
+
+  <div class="container">
+    <img class="logo" src="logo-techfut.jpg" alt="Logo do TechFut PodCast">
+
+    <div class="media-container">
+      <video controls>
+        <source src="videotechfut.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+
+      <audio controls>
+        <source src="techfutep2.wav" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+      <audio controls>
+        <source src="techfutep1.wav" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+    </div>
+  </div>
+</body>
+</html>

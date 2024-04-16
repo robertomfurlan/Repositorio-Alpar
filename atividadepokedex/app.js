@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const fetchPokemon = async () => {
       try {
-          const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10');
+          const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1015');
           const data = await response.json();
           const pokemons = data.results;
           pokemons.forEach(async (pokemon) => {

@@ -1,0 +1,40 @@
+body {
+    background-color: #2d2d2d;
+    color: white;
+    font-family: 'Brizel', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    padding: 30px;
+    background-color: #563d7c;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="number"], button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8868aa;
+    color: white;
+    cursor: pointer;
+    font-family: 'firgine', sans-serif;
+}
+input[type="number"] {
+    width: 100%;
+}
+
+button {
+    width: 48%;
+}
+
+#saldo {
+    margin-top: 20px;
+    font-size: 18px;
+}

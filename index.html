@@ -25,12 +25,15 @@
             padding: 0;
             margin: 0;
             text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow-x: auto; /* Adiciona scroll horizontal se necessário */
         }
 
         li {
-            display: inline-block;
-            margin-right: 10px; /* Espaçamento entre os botões */
-            width: 150px; /* Largura fixa para os botões */
+            width: 30%; /* Cada item terá aproximadamente 30% da largura da tela */
+            margin-bottom: 20px; /* Espaçamento entre as linhas */
         }
 
         a {
@@ -39,7 +42,7 @@
             background-color: #007bff;
             padding: 10px 20px;
             border-radius: 5px;
-            display: block; /* Para preencher completamente a largura do <li> */
+            display: block;
         }
     </style>
 </head>
